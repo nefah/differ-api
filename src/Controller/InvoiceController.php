@@ -39,7 +39,7 @@ class InvoiceController extends FOSRestController
             return $this->handleView(
                 $this->view([
                     'words' => array_count_values($words),
-                    'price' => $price,
+                    'totalPrice' => $price,
                 ],
                 Response::HTTP_CREATED
             ));
