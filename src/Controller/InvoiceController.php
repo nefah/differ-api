@@ -13,7 +13,7 @@ use App\Form\InvoiceType;
 /**
  * Invoice controller.
  *
- * @Route("/api", name="api_")
+ * @Route("/", name="api_")
  */
 class InvoiceController extends FOSRestController
 {
